@@ -14,9 +14,9 @@
                 <img src="/images/3dLogoFront.png" alt="Grawlix Design" class="h-10 w-auto rounded-lg bg-white px-2 py-1">
             </a>
             <ul class="flex gap-8 text-sm font-medium text-zinc-400">
-                <li><a href="{{ route('home') }}" class="hover:text-white transition-colors {{ request()->routeIs('home') ? 'text-white' : '' }}">Home</a></li>
-                <li><a href="{{ route('contact') }}" class="hover:text-white transition-colors {{ request()->routeIs('contact') ? 'text-white' : '' }}">Contact</a></li>
-                <li><a href="{{ route('fun') }}" class="hover:text-white transition-colors {{ request()->routeIs('fun') ? 'text-white' : '' }}">Fun</a></li>
+                <li><a href="{{ route('home') }}" class="hover:text-brand-green transition-colors {{ request()->routeIs('home') ? 'text-brand-green' : '' }}">Home</a></li>
+                <li><a href="{{ route('contact') }}" class="hover:text-brand-green transition-colors {{ request()->routeIs('contact') ? 'text-brand-green' : '' }}">Contact</a></li>
+                <li><a href="{{ route('fun') }}" class="hover:text-brand-green transition-colors {{ request()->routeIs('fun') ? 'text-brand-green' : '' }}">Fun</a></li>
             </ul>
         </nav>
     </header>

@@ -4,7 +4,7 @@
 
 @section('content')
 <section class="max-w-5xl mx-auto px-6 py-20 text-center">
-    <p class="text-violet-400 text-sm font-semibold uppercase tracking-widest mb-4">Just for kicks</p>
+    <p class="text-brand-red text-sm font-semibold uppercase tracking-widest mb-4">Just for kicks</p>
     <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-4">
         This page is for fun. 🎉
     </h1>
@@ -13,14 +13,14 @@
     </p>
 
     <div id="color-bg" class="rounded-3xl p-16 mb-12 transition-all duration-700 cursor-pointer select-none"
-         style="background: linear-gradient(135deg, #7c3aed, #2563eb);">
+         style="background: linear-gradient(135deg, #6abf69, #ef5350);">
         <p class="text-white text-2xl font-bold mb-2">Click me!</p>
         <p id="color-label" class="text-white/70 text-sm">Each click picks a new gradient</p>
     </div>
 
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
-        @foreach(['💜 Purple', '⚡ Electric', '🌊 Ocean', '🌿 Forest', '🔥 Fire', '🌸 Bloom', '🌙 Night', '☀️ Sun'] as $label)
-        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-4 text-zinc-300 text-sm font-medium hover:border-violet-500/50 hover:text-white transition-colors cursor-default">
+        @foreach(['🟢 Green', '🔴 Red', '🌊 Ocean', '🌿 Forest', '🔥 Fire', '🌸 Bloom', '🌙 Night', '☀️ Sun'] as $label)
+        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-4 text-zinc-300 text-sm font-medium hover:border-brand-green/50 hover:text-white transition-colors cursor-default">
             {{ $label }}
         </div>
         @endforeach
@@ -31,7 +31,7 @@
         <blockquote id="quote" class="text-white text-lg font-medium leading-snug mb-4">
             "Design is not just what it looks like. Design is how it works."
         </blockquote>
-        <p id="author" class="text-violet-400 text-sm">— Steve Jobs</p>
+        <p id="author" class="text-brand-green text-sm">— Steve Jobs</p>
         <button onclick="newQuote()" class="mt-6 text-xs text-zinc-500 hover:text-white transition-colors underline underline-offset-4">
             Another one
         </button>
@@ -40,14 +40,14 @@
 
 <script>
 const gradients = [
-    ['#7c3aed', '#2563eb'],
-    ['#db2777', '#f97316'],
-    ['#0ea5e9', '#6366f1'],
-    ['#10b981', '#0891b2'],
-    ['#f59e0b', '#ef4444'],
-    ['#8b5cf6', '#ec4899'],
+    ['#6abf69', '#ef5350'],
+    ['#ef5350', '#6abf69'],
+    ['#6abf69', '#0891b2'],
+    ['#ef5350', '#f97316'],
+    ['#10b981', '#6abf69'],
+    ['#6abf69', '#8b5cf6'],
     ['#1e293b', '#334155'],
-    ['#f43f5e', '#fb923c'],
+    ['#ef5350', '#fb923c'],
 ];
 
 let lastIdx = 0;
