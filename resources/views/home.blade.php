@@ -3,7 +3,13 @@
 @section('title', 'Grawlix Design — Web Design Studio')
 
 @section('content')
-<section class="max-w-5xl mx-auto px-6 py-28 text-center">
+
+{{-- Hero --}}
+<section class="max-w-5xl mx-auto px-6 pt-20 pb-12 flex flex-col items-center text-center">
+    <img src="/images/3dLogoFront.png"
+         alt="Grawlix Design logo"
+         class="w-72 sm:w-96 rounded-2xl shadow-2xl shadow-black/40 mb-10">
+
     <p class="text-violet-400 text-sm font-semibold uppercase tracking-widest mb-4">Web Design Studio</p>
     <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight text-white leading-none mb-6">
         We design websites<br>people actually use.
@@ -21,6 +27,32 @@
     </div>
 </section>
 
+{{-- Logo showcase --}}
+<section class="max-w-5xl mx-auto px-6 py-16">
+    <p class="text-zinc-500 text-xs uppercase tracking-widest text-center mb-8">Brand renders</p>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg shadow-black/30 group">
+            <img src="/images/3dLogoFront.png"
+                 alt="Grawlix logo — front view"
+                 class="w-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <p class="text-center text-zinc-400 text-xs py-3 bg-zinc-50 font-medium tracking-wide">Front view</p>
+        </div>
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg shadow-black/30 group">
+            <img src="/images/3dLogoOffset.png"
+                 alt="Grawlix logo — offset view"
+                 class="w-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <p class="text-center text-zinc-400 text-xs py-3 bg-zinc-50 font-medium tracking-wide">Offset view</p>
+        </div>
+        <div class="bg-zinc-200 rounded-2xl overflow-hidden shadow-lg shadow-black/30 group">
+            <img src="/images/3dLogoWhiteBgOffset.png"
+                 alt="Grawlix logo — perspective view"
+                 class="w-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <p class="text-center text-zinc-400 text-xs py-3 bg-zinc-50 font-medium tracking-wide">Perspective view</p>
+        </div>
+    </div>
+</section>
+
+{{-- Services --}}
 <section class="max-w-5xl mx-auto px-6 pb-28">
     <h2 class="text-2xl font-bold text-white mb-10 text-center">What we do</h2>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -37,4 +69,5 @@
         @endforeach
     </div>
 </section>
+
 @endsection

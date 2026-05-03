@@ -10,8 +10,8 @@
 
     <header class="border-b border-zinc-800">
         <nav class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
-            <a href="{{ route('home') }}" class="text-xl font-bold tracking-tight text-white hover:text-violet-400 transition-colors">
-                Grawlix<span class="text-violet-400">.</span>
+            <a href="{{ route('home') }}" class="hover:opacity-80 transition-opacity">
+                <img src="/images/3dLogoFront.png" alt="Grawlix Design" class="h-10 w-auto rounded-lg bg-white px-2 py-1">
             </a>
             <ul class="flex gap-8 text-sm font-medium text-zinc-400">
                 <li><a href="{{ route('home') }}" class="hover:text-white transition-colors {{ request()->routeIs('home') ? 'text-white' : '' }}">Home</a></li>
