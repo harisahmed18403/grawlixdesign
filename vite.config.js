@@ -12,6 +12,7 @@ export default defineConfig({
     ],
     server: {
         host: '0.0.0.0',
+        origin: process.env.VITE_ORIGIN ?? 'http://localhost:5173',
         watch: {
             ignored: ['**/storage/framework/views/**'],
         },
