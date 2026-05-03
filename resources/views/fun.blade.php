@@ -5,10 +5,10 @@
 @section('content')
 <section class="max-w-5xl mx-auto px-6 py-20 text-center">
     <p class="text-brand-red text-sm font-semibold uppercase tracking-widest mb-4">Just for kicks</p>
-    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-4">
+    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-zinc-900 mb-4">
         This page is for fun. 🎉
     </h1>
-    <p class="text-zinc-400 text-lg mb-16 max-w-xl mx-auto">
+    <p class="text-zinc-500 text-lg mb-16 max-w-xl mx-auto">
         Every great studio needs a page that's purely for the joy of it. This is ours.
     </p>
 
@@ -20,19 +20,19 @@
 
     <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
         @foreach(['🟢 Green', '🔴 Red', '🌊 Ocean', '🌿 Forest', '🔥 Fire', '🌸 Bloom', '🌙 Night', '☀️ Sun'] as $label)
-        <div class="bg-zinc-900 border border-zinc-800 rounded-xl p-4 text-zinc-300 text-sm font-medium hover:border-brand-green/50 hover:text-white transition-colors cursor-default">
+        <div class="bg-zinc-50 border border-zinc-200 rounded-xl p-4 text-zinc-600 text-sm font-medium hover:border-brand-green/50 hover:text-zinc-900 transition-colors cursor-default">
             {{ $label }}
         </div>
         @endforeach
     </div>
 
-    <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 max-w-md mx-auto">
-        <p class="text-zinc-500 text-xs uppercase tracking-widest mb-3">Random design quote</p>
-        <blockquote id="quote" class="text-white text-lg font-medium leading-snug mb-4">
+    <div class="bg-zinc-50 border border-zinc-200 rounded-2xl p-8 max-w-md mx-auto">
+        <p class="text-zinc-400 text-xs uppercase tracking-widest mb-3">Random design quote</p>
+        <blockquote id="quote" class="text-zinc-900 text-lg font-medium leading-snug mb-4">
             "Design is not just what it looks like. Design is how it works."
         </blockquote>
         <p id="author" class="text-brand-green text-sm">— Steve Jobs</p>
-        <button onclick="newQuote()" class="mt-6 text-xs text-zinc-500 hover:text-white transition-colors underline underline-offset-4">
+        <button onclick="newQuote()" class="mt-6 text-xs text-zinc-400 hover:text-zinc-900 transition-colors underline underline-offset-4">
             Another one
         </button>
     </div>
