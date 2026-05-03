@@ -8,7 +8,7 @@
 <section class="max-w-5xl mx-auto px-6 pt-20 pb-12 flex flex-col items-center text-center">
     <img src="/images/3dLogoFront.png"
          alt="Grawlix Design logo"
-         class="w-72 sm:w-96 mb-10">
+         class="w-48 sm:w-64 mb-10">
 
     <p class="text-brand-green text-sm font-semibold uppercase tracking-widest mb-4">Web Design Studio</p>
     <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight text-white leading-none mb-6">
