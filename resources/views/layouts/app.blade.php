@@ -1,33 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Grawlix Design')</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-white text-zinc-900 min-h-screen flex flex-col">
+<body>
 
-    <header class="border-b border-zinc-200">
-        <nav class="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
-            <a href="{{ route('home') }}" class="hover:opacity-80 transition-opacity">
-                <img src="/images/3dLogoFront.png" alt="Grawlix Design" class="h-10 w-auto">
-            </a>
-            <ul class="flex gap-8 text-sm font-medium text-zinc-500">
-                <li><a href="{{ route('home') }}" class="hover:text-brand-green transition-colors {{ request()->routeIs('home') ? 'text-brand-green' : '' }}">Home</a></li>
-                <li><a href="{{ route('contact') }}" class="hover:text-brand-green transition-colors {{ request()->routeIs('contact') ? 'text-brand-green' : '' }}">Contact</a></li>
-                <li><a href="{{ route('fun') }}" class="hover:text-brand-green transition-colors {{ request()->routeIs('fun') ? 'text-brand-green' : '' }}">Fun</a></li>
+    <header>
+        <nav>
+            <a href="{{ route('home') }}">Grawlix Design</a>
+            <ul>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('contact') }}">Contact</a></li>
+                <li><a href="{{ route('fun') }}">Fun</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="flex-1">
+    <main>
         @yield('content')
     </main>
-
-    <footer class="border-t border-zinc-200 py-8 text-center text-zinc-400 text-sm">
-        &copy; {{ date('Y') }} Grawlix Design. All rights reserved.
-    </footer>
 
 </body>
 </html>

@@ -9,6 +9,7 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 
-    --color-brand-green: #6abf69;
-    --color-brand-red:   #ef5350;
+    --color-brand-green:#56EF65;
+    --color-brand-red:#EF4553;
+    --color-brand-purple:#C49EE8;
 }

@@ -5,7 +5,8 @@
       "Bash(composer --version)",
       "Bash(npm --version)",
       "Bash(gh --version)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(php artisan *)"
     ]
   }
 }
