@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FunController;
 
-Route::get('/', fn() => view('home'))->name('home');
-Route::get('/contact', fn() => view('contact'))->name('contact');
-Route::get('/fun', fn() => view('fun'))->name('fun');
+Route::get('/', HomeController::class)->name('home');
+Route::get('/contact', ContactController::class)->name('contact');
+Route::get('/fun', FunController::class)->name('fun');
