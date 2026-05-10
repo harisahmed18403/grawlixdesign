@@ -38,9 +38,7 @@
         <div id="top" class="flex items-center justify-between px-5 bg-white border-b border-zinc-200 shrink-0" style="height: 48px;">
             <nav class="flex items-center gap-1 text-sm text-zinc-400">
                 <span>Home</span>
-             
-                      <span c
-   l                ass="mx-1">/</span>
+                <span class="mx-1">/</span>
                 <span>E-commerce</span>
                 <span class="mx-1">/</span>
                 <span class="text-brand-purple font-medium">Orders</span>
