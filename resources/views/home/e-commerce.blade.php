@@ -1,4 +1,4 @@
-<section id="e-commerce" class="flex w-full" style="height: 600px;">
+<section id="e-commerce" class="flex w-full min-h-full">
 
     {{-- Left sidebar --}}
     <div id="left" class="flex flex-col w-48 bg-brand-purple shrink-0">

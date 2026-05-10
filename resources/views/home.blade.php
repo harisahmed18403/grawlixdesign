@@ -17,8 +17,19 @@
         </div>
     </section>
 
-    @include('home.web-design')
-    @include('home.enterprise-tools')
-    @include('home.e-commerce')
-    @include('home.online-business-integration')
+    <div class="border border-zinc-200 rounded-lg overflow-y-auto mx-2 my-4" style="height:520px;">
+        @include('home.web-design')
+    </div>
+
+    <div class="border border-zinc-200 rounded-lg overflow-y-auto mx-2 my-4" style="height:520px;">
+        @include('home.enterprise-tools')
+    </div>
+
+    <div class="border border-zinc-200 rounded-lg overflow-y-auto mx-2 my-4" style="height:520px;">
+        @include('home.e-commerce')
+    </div>
+
+    <div class="border border-zinc-200 rounded-lg overflow-y-auto mx-2 my-4" style="height:520px;">
+        @include('home.online-business-integration')
+    </div>
 @endsection
