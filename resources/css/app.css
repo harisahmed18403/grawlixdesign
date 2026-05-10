@@ -9,7 +9,26 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 
-    --color-brand-green:#56EF65;
-    --color-brand-red:#EF4553;
-    --color-brand-purple:#C49EE8;
+    /* Base brand colors */
+    --color-brand-green:        #56EF65;
+    --color-brand-red:          #EF4553;
+    --color-brand-purple:       #C49EE8;
+
+    /* Green scale */
+    --color-brand-green-bg:     #EDFCEF; /* very light, safe for backgrounds */
+    --color-brand-green-muted:  #B2F5B9; /* soft tint, hover states */
+    --color-brand-green-text:   #1C7A28; /* dark enough for readable text */
+    --color-brand-green-dark:   #2DB83C; /* dark accent / borders */
+
+    /* Red scale */
+    --color-brand-red-bg:       #FDEAEC; /* very light, safe for backgrounds */
+    --color-brand-red-muted:    #F7A8B0; /* soft tint, hover states */
+    --color-brand-red-text:     #9B1525; /* dark enough for readable text */
+    --color-brand-red-dark:     #C42030; /* dark accent / borders */
+
+    /* Purple scale */
+    --color-brand-purple-bg:    #F3EDFB; /* very light, safe for backgrounds */
+    --color-brand-purple-muted: #DCC5F3; /* soft tint, hover states */
+    --color-brand-purple-text:  #6B3DA0; /* dark enough for readable text */
+    --color-brand-purple-dark:  #9B6ED4; /* dark accent / borders */
 }
