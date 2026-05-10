@@ -6,7 +6,8 @@
       "Bash(npm --version)",
       "Bash(gh --version)",
       "Bash(gh auth *)",
-      "Bash(php artisan *)"
+      "Bash(php artisan *)",
+      "Bash(npm install *)"
     ]
   }
 }
