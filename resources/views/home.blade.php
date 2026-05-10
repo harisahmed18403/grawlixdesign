@@ -11,7 +11,7 @@
             <ul>
                 <li>Web Design</li>
                 <li>Enterprise Tools</li>
-                <li>E-commerce</li>
+                <li>E-commerce Integration</li>
                 <li>Online Business Integration</li>
             </ul>
         </div>
